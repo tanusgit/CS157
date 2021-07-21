@@ -25,5 +25,11 @@ there is only one database in oracle
 
 
 
-to enable docker 
-systemctl start docker
+to install docker
+sudo snap install docker
+to run docker
+sudo snap start docker
+Then run the command to install oracle
+sudo docker run -d -p 1521:1521 epiclabs/docker-oracle-xe-11g
+
+
