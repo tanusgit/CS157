@@ -22,3 +22,8 @@ sha key always changes
 then run sqlplus system/oracle@//localhost:1521/xe
 
 there is only one database in oracle
+
+
+
+to enable docker 
+systemctl start docker
