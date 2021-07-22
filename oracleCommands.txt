@@ -32,4 +32,11 @@ sudo snap start docker
 Then run the command to install oracle
 sudo docker run -d -p 1521:1521 epiclabs/docker-oracle-xe-11g
 
+oracle create a table:
+    CREATE TABLE customers  
+    ( customer_id number(10) NOT NULL,  
+      customer_name varchar2(50) NOT NULL,  
+      city varchar2(50)  
+    );  
+
 
