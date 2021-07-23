@@ -40,5 +40,7 @@ oracle create a table:
       department varchar(50),
       salary integer
     );  
-
+insert into Employee values (1, 'Rina' , 'sales', 1254);
+insert into Employee values (2, 'Tina' , 'teach', 1256);
+insert into Employee values (3, 'Sina' , 'sales', 1255);
 
